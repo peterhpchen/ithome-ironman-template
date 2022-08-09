@@ -1,9 +1,12 @@
 {
   "scripts": {
-    "new": "hygen ironman day"
+    "new": "hygen ironman day",
+    "lint:prettier": "prettier --write",
+    "lint:markdownlint": "markdownlint --config .markdownlint.js --fix"
   },
   "devDependencies": {
-    "hygen": "^6.1.0",
-    "prettier": "^2.3.2"
+    "hygen": "6.2.8",
+    "markdownlint-cli": "0.32.1",
+    "prettier": "2.7.1"
   }
 }
