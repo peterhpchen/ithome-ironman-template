@@ -16,7 +16,9 @@
 
 ## 使用方式
 
-- 使用 Visual Studio Code 開啟專案。
+- 按下 GitHub 右上的 **Use this template** 建立 Repo 。
+- 將 Repo clone 到本機。
+- 使用 Visual Studio Code 開啟資料夾。
   - 初次啟動時，請安裝 recommendations 的插件。
 - 執行 `npm install` 安裝相關套件。
 
