@@ -6,7 +6,7 @@
   },
   "devDependencies": {
     "hygen": "6.2.8",
-    "markdownlint-cli": "0.32.1",
+    "markdownlint-cli": "0.32.2",
     "prettier": "2.7.1"
   }
 }
