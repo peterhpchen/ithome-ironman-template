@@ -1,14 +1,14 @@
 import { defineUserConfig } from 'vuepress';
-import { defaultTheme } from 'vuepress';
-
-import { redirectPlugin } from 'vuepress-plugin-redirect';
+import { viteBundler } from '@vuepress/bundler-vite';
+import { defaultTheme } from '@vuepress/theme-default';
+import { redirectPlugin } from '@vuepress/plugin-redirect';
 
 export default defineUserConfig({
+  bundler: viteBundler(),
   base: '/ithome-ironman-template/',
   lang: 'zh-TW',
   title: 'ithome-ironman-template',
-  description:
-    'This is the template for ithome ironman.',
+  description: 'This is the template for ithome ironman.',
   theme: defaultTheme({
     home: '/01/README.md',
     navbar: [
